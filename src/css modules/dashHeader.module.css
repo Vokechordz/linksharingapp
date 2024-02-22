@@ -1,0 +1,123 @@
+.DashHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headmobile {
+    position: absolute;
+    left: -999999999999999999999999999px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.prevIcon {
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profcon {
+    padding: 8px 13px;
+    border-radius: 5px;
+}
+
+.profcon:hover {
+    background-color: lavender;
+}
+
+.headmobile img {
+    width: 19px;
+    display: block;
+    object-fit: contain;
+}
+
+.linkprof {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    font-weight: bold;
+    color: hsla(240, 88%, 3%,0.8);
+}
+
+.linkprof img {
+    width: 13px;
+}
+
+
+.linkhead {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+.profhead {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+
+.linkhead:hover, .profhead:hover {
+    transition: ease-in 0.2s;
+    background-color: lavender;
+    color: hsla(240, 28%, 76%, 0.2);
+}
+
+.linkk {
+    text-decoration: none;
+    color: hsla(240, 88%, 3%,0.5);
+}
+
+.linkk:hover {
+    color: rgb(44, 44, 150);
+}
+
+.DashHeader button {
+    padding: 8px 19px;
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.DashHeader button:hover {
+    background-color: blue;
+    transition: ease-in 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width:654px) {
+    .linkprof {
+        gap: 14px;
+        font-size: 15px;
+    }
+
+    .DashHeader button {
+        padding: 5px 15px;
+    }
+
+  }
+
+
+@media only screen and (max-width:492px) {
+    .DashHeader {
+        position: absolute;
+        left: -99999999999999999999999px;
+    }
+
+    .headmobile {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+}

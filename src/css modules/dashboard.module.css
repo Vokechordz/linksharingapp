@@ -1,0 +1,16 @@
+.dashboard {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+
+@media only screen and (max-width:802px) {
+    .dashboard {
+        display: flex;
+        flex-direction: column;
+    }
+}

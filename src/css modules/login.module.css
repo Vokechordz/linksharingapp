@@ -1,0 +1,171 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 4% auto;
+    width: 38%;
+}
+
+.login h1 {
+    color: hsl(240, 88%, 3%);
+}
+
+.devlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    margin-bottom: 20px
+}
+
+.addp {
+    color: hsla(240, 88%, 3%,0.8);
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+
+.form label {
+    font-size: 12px;
+    color: hsla(240, 88%, 3%,0.8);
+    margin-bottom: 5px;
+
+}
+
+.form input[type=email] {
+    border: 1px solid hsla(240, 88%, 3%,0.4);
+    border-radius: 8px;
+    padding: 9px 9px 9px 35px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../assets/message_5249273.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    background-size: 12px;
+  }
+
+
+.form input[type=password] {
+    border: 1px solid hsla(240, 88%, 3%,0.4);
+    border-radius: 8px;
+    padding: 9px 9px 9px 35px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../assets/padlock_566759.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    background-size: 12px;
+  }
+
+
+.form input[type=text] {
+    border: 1px solid hsla(240, 88%, 3%,0.4);
+    border-radius: 8px;
+    padding: 9px 9px 9px 35px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: white;
+    background-image: url('../assets/padlock_566759.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    background-size: 12px;
+  }
+
+  .form input::placeholder {
+    
+    margin-left: 25px;
+    font-size: 12px;
+  }
+
+  .form button {
+    background-color: hsla(240, 83%, 56%);
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 9px 0;
+    border-radius: 9px;
+    margin-top: 18px;
+    cursor: pointer;
+  }
+
+  .dont {
+    text-align: center;
+    font-size: 13px;
+    color: hsla(240, 88%, 3%,0.8);
+    margin-top: 25px;
+  }
+
+  .dontLink {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .dontLink:hover {
+    color: hsla(240, 88%, 3%,0.8);
+  }
+
+  .showbutton {
+    width:  18px;
+    margin-top: -27px;
+    padding-right: 10px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
+
+
+  @media only screen and (max-width:802px) {
+    .login {
+        width: 43%;
+    }
+  }
+
+
+  @media only screen and (max-width:690px) {
+    .login {
+        width: 46%;
+    }
+  }
+
+
+  @media only screen and (max-width:652px) {
+    .login {
+        width: 51%;
+    }
+  }
+
+
+  @media only screen and (max-width:588px) {
+    .login {
+        width:55%;
+    }
+  }
+
+
+  @media only screen and (max-width:524px) {
+    .login {
+        width:68%;
+    }
+  }
+
+
+  @media only screen and (max-width:430px) {
+    .login {
+        width:78%;
+    }
+  }
+
+
+  @media only screen and (max-width:374px) {
+    .login {
+        width:89%;
+    }
+  }
